@@ -11,3 +11,25 @@
  *= require_self
  *= require_tree .
  */
+
+
+#photo_rotate img{
+       width: 400;
+       height:400;
+       -moz-border-radius: 50%;
+       -webkit-border-radius: 50%;
+       border-radius: 50%;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      padding:4px;
+      border:1px solid #000 !important;
+                          }
+#photo_rotate img:hover {
+       border-radius: 0 0 0 0;
+       -moz-transform: scale(1.2) rotate(-711deg) ;
+       -webkit-transform: scale(1.2) rotate(-711deg) ;
+       -o-transform: scale(1.2) rotate(-711deg) ;
+       -ms-transform: scale(1.2) rotate(-711deg) ;
+       transform: scale(1.2) rotate(-711deg) ;
+                                        }
